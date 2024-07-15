@@ -1,5 +1,6 @@
-import React from "react";
 import { Box } from "@mui/material";
+import React from "react";
+import { newsData } from "../../../../../constants/newsData";
 import { Card, Container } from "../../../../common";
 
 const News = () => {
@@ -11,10 +12,9 @@ const News = () => {
           justifyContent: "space-between",
         }}
       >
-        <Card as="NewsCard" />
-        <Card as="NewsCard" />
-        <Card as="NewsCard" />
-        <Card as="NewsCard" />
+        {newsData.map((item, index) => (
+          <Card key={index} as="NewsCard" {...item} />
+        ))}
       </Box>
     </Container>
   );

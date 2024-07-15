@@ -8,6 +8,7 @@ const styles = {
     alignItems: "center",
     gap: "20px",
     padding: "20px",
+    boxSizing: "border-box",
     borderRadius: "16px",
     backgroundColor: "#007FFF",
   },
