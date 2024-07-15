@@ -2,9 +2,11 @@ import { Box } from "@mui/material";
 import React from "react";
 import { Button } from "../../../common";
 import Advantage from "./Advantage";
+import News from "./News";
 import RepresentTeam from "./RepresentTeam";
 import ShowcaseSkills from "./ShowcaseSkills";
 import StateMatch from "./StateMatch";
+import TopPerformer from "./TopPerformer";
 import Working from "./Working";
 import styles from "./styles";
 
@@ -19,6 +21,8 @@ const Home = () => {
       <StateMatch />
       <ShowcaseSkills />
       <RepresentTeam />
+      <TopPerformer />
+      <News />
     </Box>
   );
 };
