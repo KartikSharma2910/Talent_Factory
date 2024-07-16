@@ -4,8 +4,6 @@ const styles = {
     height: "375px",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
     gap: "20px",
     padding: "20px",
     boxSizing: "border-box",
@@ -15,7 +13,7 @@ const styles = {
 
   imageWrapper: {
     width: "100%",
-    height: "100%",
+    height: "220px",
   },
 
   image: {
@@ -26,7 +24,7 @@ const styles = {
   },
 
   text: {
-    fontSize: "24px",
+    fontSize: "20px",
     textTransform: "capitalize",
     fontWeight: 600,
   },

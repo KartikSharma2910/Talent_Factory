@@ -2,7 +2,9 @@ import { Box } from "@mui/material";
 import React from "react";
 import { Button } from "../../../common";
 import Advantage from "./Advantage";
+import GetInTouch from "./GetInTouch";
 import News from "./News";
+import Partners from "./Partners";
 import RepresentTeam from "./RepresentTeam";
 import ShowcaseSkills from "./ShowcaseSkills";
 import StateMatch from "./StateMatch";
@@ -23,6 +25,8 @@ const Home = () => {
       <RepresentTeam />
       <TopPerformer />
       <News />
+      <GetInTouch />
+      <Partners />
     </Box>
   );
 };
